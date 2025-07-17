@@ -1,0 +1,52 @@
+Che cosa è un algoritmo?
+
+Per me, un algoritmo è lo svolgimento di una mansione vista in tutti
+i suoi passaggi. Esempio:
+
+    Marta deve prendere l'ascenzore...
+
+    Passaggio 1. Marta entra nell'edificio;
+    Passaggio 2. Marta entra nell'ascenzore;
+    Passaggio 3. Marta cerca il bottone del piano a cui deve arrivare;
+    Passaggio 4. Marta seleziona il piano a cui deve arrivare;
+    Passaggio 5. Marta arriva al piano desiderato;
+    Passaggio 6. Marta esce dall'ascenzore.
+
+Il fine della mansione è scaturito dal compimento di essa. Spesso può
+anche accadere che per arrivare allo svolgimento della mansione si 
+verifichino anche degli imprevisti. Esempio:
+
+    Marta deve prendere l'ascenzore...
+
+    Passaggio 1. Marta entra nell'edificio;
+    Passaggio 2. Marta entra nell'ascenzore;
+    Passaggio 3. L'ascenzore è occupato;
+    Passaggio 4. Marta aspetta che l'ascenzore si liberi;
+    Passaggio 5. Marta entra nell'ascenzore;
+    Passaggio 6. Marta cerca il bottone del piano a cui deve arrivare;
+    Passaggio 7. Marta seleziona il piano a cui deve arrivare;
+    Passaggio 8. Marta arriva al piano desiderato;
+    Passaggio 9. Marta esce dall'ascenzore. 
+    Passaggio 10. Marta seleziona il piano a cui deve arrivare;
+    Passaggio 11. Marta arriva al piano desiderato;
+    Passaggio 12. Marta esce dall'ascenzore.
+
+        e cosi via...
+
+Che cosa è una variabile?
+
+Per me una variabile è un contenitore di informazione, proprio come
+una ciotola contiene della frutta, nel linguaggio macchina la variabile
+è una "ciotola di informazione" 
+
+undefined e null sono la stessa cosa?
+
+No:
+
+    undefined --> è utilizzato quando abbiamo una variabile che in
+                    momento non ci serve. E normalmente "undefined"
+                    è il valore che prendono le variabili non 
+                    dichiarate.
+    
+    null -------> è invece utilizzato quando siamo noi a volere che
+                    una variabile abbia come valore "nullo".
