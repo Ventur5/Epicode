@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>AMAZUFH</title>
+    <link rel="stylesheet" href="./ExCss.css" />
+</head>
+
+<body id="bgColor">
+    <div class="container-title">
+        <h1 id="title" class="h1">
+            AMAZUFH
+        </h1>
+        <button onclick="changeText()">Titolo</button>
+        <button onclick="changeColor()">Colore</button>
+        <button onclick="changeStreet()">Indirizzo</button>
+        <button onclick="changeImgs()">Immagini</button>
+        <button onclick="changeLinks()">Link</button>
+        <button onclick="randomColorPrice()">Prezzi</button>
+        <div class="feedback">
+            <p class="feedback-text">Lascia un commento sulla tua esperienza di acquisto, per aiutarci a migliorare...!
+            </p>
+        </div>
+    </div>
+    <div class="main-container">
+        <ul>
+            <li>
+                <img src="./assets/shopping.webp" alt="immagine di bicchieri" id="imgs">
+                <h4>Set di bicchieri</h4>
+                <p>Un set di bicchieri di vari colori per pranzi vivaci</p>
+                <p id="price">7,99$</p>
+                <a
+                    href="https://www.amazon.it/Excelsa-Atene-Set-6-Bicchieri/dp/B0BMVZM182/ref=sr_1_47?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2MZ7ZVPMDLBY&dib=eyJ2IjoiMSJ9.NTKRu7XXGF3LLLszadHKRmo-Qhzh59zasU-s9qJBrY4lMBXc46vLIqL4EGeh3-tYRzUlb5qjY87sMhWNfgdw394lcIbGiR22UxDxRkcJnxb5GsFQtWocdi97O3vgiZo9k5-3yPto5fBwCiN16lXTyfkUfB3sk-PT7tz6Ec6Xz_sYYpMkh7x68Cd5VBOF1tjFdLnmpx8A874fKcMXz89dLBG1bBCVswlnZw1JePPJI1Up3lj-c5Q036pWzpvvwWZCIrqNM7U4HfFd2DfgTEzEbStDGQ5mws8XGZTy-uHcv1M.l82qgGqjq17zPkaNIDp3qg0ZXp2W_BKVERt5uX2dSk0&dib_tag=se&keywords=set+di+bicchieri+colorati&qid=1754071741&sprefix=set+di+bicchieri+colorati%2Caps%2C127&sr=8-47" id="links">Link
+                    ad AMAZON \(''\)</a>
+            </li>
+            <li>
+                <img src="./assets/download.jpeg" alt="immagine tastiera" id="imgs">
+                <h4>Tastiera meccanica</h4>
+                <p>Una tastiera meccanica con retroilluminazione RGB</p>
+                <p id="price">49,99$</p>
+                <a
+                    href="https://www.amazon.it/GK61-multicolore-illuminata-retroilluminata-programmabile/dp/B0BQBHB414/ref=sr_1_5?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1C5X75IP1IMKY&dib=eyJ2IjoiMSJ9.0Iqpn-o5lLwiPyA6Hp_Weg7fvZGLj9dzioPdX0eQacNlP8VCnr39N8OtGTerGOHqd-ca51rizirmNk6nW16iOpCFdvdV6LBoVeSLxEytJJdbIb0Mc8bzPUJmM_zy68m0oe7S6QYkFnCputaJp8wYSABXztyyaJmI6JuCPi4U1SB6ARXf7xRB1NL9KE9MwEn_Y9IugwckTnp8al7Twjn6S-n3Uz9Ch4GPCeNhbHEAOrlBbr4qOcmY3T5xpvAzRiZ4NOwp9nhu7vlYGZfqEiwITJHplEvb8IzUJdD5VlD6d2I.aYps4ifJ88WIpj1-xQzASzjDNVMa4Gb1vEZSSA0uSo0&dib_tag=se&keywords=tastiera%2Bmeccanica&qid=1754072275&sprefix=tastiera%2Bmeccanica%2Caps%2C158&sr=8-5&th=1" id="links">Link
+                    ad AMAZON \(''\)</a>
+            </li>
+            <li>
+                <img src="./assets/images.jpeg" alt="immagine lampada" id="imgs">
+                <h4>Lampada da tavolo</h4>
+                <p>Una lampada da tavolo elegante con luce regolabile</p>
+                <p id="price">19,99$</p>
+                <a
+                    href="https://www.amazon.it/Reality-Lampada-tavolo-Sophia-1xE14/dp/B08FTBKLD4/ref=sr_1_41?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2JRM7Y7H7N9FI&dib=eyJ2IjoiMSJ9.oGeAUgKDfFgs-4C7yzoGzMSpNb3C3hHx5viiYUnZbUwGDOOCo36TVQNWiy17fu1FYUSBT2jw8ateHSX4XGHpAa2_4_PW91KBVuqkkbTZ3XaByP1c864aeKrASVNtCfBeSuyEhYQ_cLj_ittnuidJOpCK7cGpPfyroKNWboDRHrxTvAohpeSlA5tOuoaCXuKn7XdO2OTa7OA833KtBo3QhSVcx8W2ureYHF0a-o-1YFu868xNuUh8yilP9II0LksAWDD6KTsRsJPJ59tckaZgJDjivouEkdY8EKCt1AWdLAY.VJphHm3SYNccntP5MNz1mZk6vpb-DD9ED7-DeTiL2ak&dib_tag=se&keywords=lampada%2Bda%2Btavolo&qid=1754072342&sprefix=lampada%2Bda%2Btavol%2Caps%2C164&sr=8-41&th=1" id="links">Link
+                    ad AMAZON \(''\)</a>
+            </li>
+            <li>
+                <img src="./assets/download cuffiette.jpeg" alt="Immagine cuffiette" id="imgs">
+                <h4>Cuffiette wireless</h4>
+                <p>Cuffiette wireless con cancellazione del rumore</p>
+                <p id="price">89,99$</p>
+                <a
+                    href="https://www.amazon.it/Bluetooth-Auricolari-Immersivo-Resistenza-Auricolare/dp/B0FDB5ZGNK/ref=sr_1_20?crid=36UB97OVVDCWV&dib=eyJ2IjoiMSJ9.dGlLuCdRuDgCI-HkTkUdgE8b4kOK4CNOlHWJsPmsOSpVyC1V6O_Aj1ePiWblqghWEE5n6DHEMu_ppO4tolMYJFl6hr3hpV7gtxgqYfEO6VY8Y455gyas5L9wTUVVjzs3hfG1GtmBpIZ7zIJWOXwmq8ePbxJLOqwvh--CL5jVr9z7PedHLlqh-Wcq7LDq7ukNO_c9EHcQtgyVbhseikYM_AXGLaFY2G821WNIxnplB3gBaeMeiZ7IKxBMSfAP4qdlr7ThcD54fuNzKjZmfeRhIOyehlTyQ4SVZSxbA9TT9GI.YvkXJdvdW4aYGJrJ_jXxSJphxXgE4zugzuyJ0iE7KHg&dib_tag=se&keywords=cuffie+bluetooth&qid=1754072408&sprefix=cuffiette+blu%2Caps%2C118&sr=8-20" id="links">Link
+                    ad AMAZON \(''\)</a>
+            </li>
+            <li>
+                <img src="./assets/images cassa.jpeg" alt="Immagine cassa" id="imgs">
+                <h4>Cassa Bluetooth</h4>
+                <p>Cassa Bluetooth portatile con suono potente</p>
+                <p id="price">39,99$</p>
+                <a
+                    href="https://www.amazon.it/TPBEAT-Bluetooth-Portatile-Altoparlante-Campeggio/dp/B0CQFQZWG8/ref=sr_1_19_sspa?crid=1VPN7B6EKQMAW&dib=eyJ2IjoiMSJ9.NflPe-CzgKhcw7aRd_4ubwpY6sa20rwa7S1e8cikaCZIR9VCVvZyXsOhkqfRFLXYms86cw_ff4L1Cou3OXTL42jm6b5XcPmHCTus2jnrhnvNUkmidm0VPE_k4ECUmd5ofRhCYR_TFF037KfFNF0Z12ovRyrvaSOytRy61xKWDDJgc7wyGHSHou2ArqaA2PMPUL6IvHOhB5MjINiCyqv-Pbho5vwVt0a2-mIg-SJhBRIy6TuE69i21gUvT_r_tsg5kcOr18Cpg4i8jRhJOU1ZW06iTSo1gVFASL1AN1tzTuE.5_fPxtOT60cNTD58Y605j7It2iO20FYr8_7CcKILZdo&dib_tag=se&keywords=cassa+bluetooth+jbl&qid=1754072453&sprefix=cassa+bl%2Caps%2C114&sr=8-19-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1" id="links">Link
+                    ad AMAZON \(''\)</a>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <div class="social-container">
+            <div class="container">
+                <h3 class="social">Contatti:</h3>
+                <p class="social">Email: amazufh@noTruf.com</p>
+                <p class="social">Telefono: 123 456 7890</p>
+            </div>
+            <div class="container">
+                <h3 class="social">Dove ci trovi?</h3>
+                <p id="newStreet" class="social">Sede centrale: L'isola che non c'è</p>
+                <p class="social">Filiale: Via dei Sogni, 123</p>
+            </div>
+        </div>
+    </footer>
+    <script src="ExJs.js"></script>
+</body>
+
+</html>
