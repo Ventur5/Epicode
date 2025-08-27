@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: rgb(212, 212, 212);
+}
+
+.job-result {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ff7070;
+    border-radius: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+    display: block;
+    width: 300px;
+    padding: 8px;
+    background-color: rgb(241, 241, 241);
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #000000;
+    color: white;
+}
